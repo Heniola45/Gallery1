@@ -1,0 +1,11 @@
+.myDiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,30vw);
+    grid-gap: 15px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
